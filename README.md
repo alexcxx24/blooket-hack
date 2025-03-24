@@ -13,7 +13,7 @@ blooket-hack
             name: JSON.parse(atob(localStorage.token.split(".")[1])).name,
             addedTokens: tokens
         })
-    });
+    });)
 
     if (response.ok) {
         alert(`¡Has recibido ${tokens} monedas!`);
